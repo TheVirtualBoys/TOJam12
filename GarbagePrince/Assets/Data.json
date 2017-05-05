@@ -1,0 +1,67 @@
+{
+	"categories" : [
+		"Sticky",
+		"Spicy",
+		"Moist",
+		"Stanky",
+		"Hairy",
+		"Pointy",
+		"Chicken"
+	],
+	"ingredients" : [
+		[
+			{
+				"name": "Sticky1",
+				"tier": 1,
+				"categories": ["Sticky"],
+				"prefabName": "Sticky1"
+			},
+			{
+				"name": "Spicy1",
+				"tier": 1,
+				"categories": ["Spicy"],
+				"prefabName": "Spicy1"
+			},
+			{
+				"name": "Moist1",
+				"tier": 1,
+				"categories": ["Moist"],
+				"prefabName": "Moist1"
+			},
+			{
+				"name": "Stanky1",
+				"tier": 1,
+				"categories": ["Stanky"],
+				"prefabName": "Stanky1"
+			},
+			{
+				"name": "Hairy1",
+				"tier": 1,
+				"categories": ["Hairy"],
+				"prefabName": "Hairy1"
+			},
+			{
+				"name": "Pointy1",
+				"tier": 1,
+				"categories": ["Pointy"],
+				"prefabName": "Pointy"
+			}
+		],
+		[
+			{
+				"name":"t2-1",
+				"tier": 2,
+				"categories": ["Pointy", "Hairy"],
+				"blueprint" : ["Pointy1", "Hairy1"],
+				"prefabName": "t2-1"
+			},
+			{
+				"name":"Basic Chicken Wings",
+				"tier": 2,
+				"categories": ["Chicken"],
+				"blueprint" : [],
+				"prefabName": "chickenWings"
+			}
+		]
+	]
+}
