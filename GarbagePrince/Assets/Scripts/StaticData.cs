@@ -9,7 +9,7 @@ public class StaticData : MonoBehaviour
 	private List<string> categories            = null;
 	private List<List<Ingredient>> ingredients = null; // first index is tier.
 
-	public void Start()
+	public void Awake()
 	{
 		if (!staticData) {
 			GameObject.DontDestroyOnLoad(this);
@@ -38,9 +38,7 @@ public class StaticData : MonoBehaviour
 	public static StaticData Instance
 	{
 		get {
-			if (staticData)
-				return staticData;
-			return null;
+			return staticData;
 		}
 	}
 
@@ -52,11 +50,11 @@ public class StaticData : MonoBehaviour
 		return null;
 	}
 
-	public Ingredient GetIngredient(string name)
+	public Ingredient GetIngredient(string prefabName)
 	{
 		for (int i = 0; i < this.ingredients.Count; ++i) {
 			for (int j = 0; j < this.ingredients[i].Count; ++j) {
-				if (this.ingredients[i][j].ingredientName == name) {
+				if (this.ingredients[i][j].prefabName == prefabName) {
 					return this.ingredients[i][j];
 				}
 			}

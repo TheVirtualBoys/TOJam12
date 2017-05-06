@@ -4,10 +4,11 @@ using UnityEngine;
 
 public class Combotron : MonoBehaviour {
 
-	public IngredientUI item1     = null;
-	public IngredientUI item2     = null;
+	public IngredientUI item1        = null;
+	public IngredientUI item2        = null;
+	public IngredientUI combinedItem = null;
 	public Animator combineItemAnim  = null;
-	Ingredient createdItem           = null;
+	public static Ingredient newItem = null;
 
 	// try and add an ingredient
 	public bool AddIngredient(Ingredient item)
@@ -48,21 +49,25 @@ public class Combotron : MonoBehaviour {
 	public Ingredient Combine()
 	{
 		if (this.item1 == null || item2 == null) return null;
-		// todo: logic to combine ingredients
+		newItem = StaticData.Instance.GetIngredient("BasicWings");
+
+		// logic to combine ingredients
+
 		this.RemoveIngredient(item1);
 		this.RemoveIngredient(item2);
-		return null;
+		return newItem;
 	}
 
 	public void StartCombineAnimation()
 	{
-		this.createdItem = Combine();
+		Ingredient ingredient = Combine();
+		this.combinedItem.ClearAndInstantiateCell(ingredient);
 		this.combineItemAnim.SetTrigger("RevealItem");
 	}
 
 	public void EndCombineAnimation()
 	{
-
+		
 	}
 
 	public void RevealNewIngredient(Ingredient ingredient)
