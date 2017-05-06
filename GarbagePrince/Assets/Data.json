@@ -20,25 +20,25 @@
 				"name": "Spicy1",
 				"tier": 1,
 				"categories": ["Spicy"],
-				"prefabName": "TempItem"
+				"prefabName": "Spicy-1"
 			},
 			{
 				"name": "Moist1",
 				"tier": 1,
 				"categories": ["Moist"],
-				"prefabName": "TempItem"
+				"prefabName": "Moist-1"
 			},
 			{
 				"name": "Stanky1",
 				"tier": 1,
 				"categories": ["Stanky"],
-				"prefabName": "TempItem"
+				"prefabName": "Stanky-1"
 			},
 			{
 				"name": "Hairy1",
 				"tier": 1,
 				"categories": ["Hairy"],
-				"prefabName": "TempItem"
+				"prefabName": "Hairy-1"
 			},
 			{
 				"name": "Pointy1",
@@ -54,6 +54,62 @@
 				"categories": ["Pointy", "Hairy"],
 				"blueprint" : ["Pointy1", "Hairy1"],
 				"prefabName": "TempItem"
+			},
+			{
+				"name":"Lolipop",
+				"tier": 2,
+				"categories": ["Sticky", "Sticky"],
+				"blueprint" : ["Sticky-1", "Sticky-1"],
+				"prefabName": "StickySticky-1"
+			},
+			{
+				"name":"Poop",
+				"tier": 2,
+				"categories": ["Stanky", "Stanky"],
+				"blueprint" : ["Stanky-1", "Stanky-1"],
+				"prefabName": "StankyStanky-1"
+			},
+			{
+				"name":"HotSauce",
+				"tier": 2,
+				"categories": ["Sticky", "Spicy"],
+				"blueprint" : ["Sticky-1", "Spicy-1"],
+				"prefabName": "StickySpicy-1"
+			},
+			{
+				"name":"Spaghetti",
+				"tier": 2,
+				"categories": ["Sticky", "Moist"],
+				"blueprint" : ["Sticky-1", "Moist-1"],
+				"prefabName": "StickyMoist-1"
+			},
+			{
+				"name":"Bee",
+				"tier": 2,
+				"categories": ["Hairy", "Pointy"],
+				"blueprint" : ["Hairy-1", "Pointy-1"],
+				"prefabName": "HairyPointy-1"
+			},
+			{
+				"name":"Butt",
+				"tier": 2,
+				"categories": ["Stanky", "Hairy"],
+				"blueprint" : ["Stanky-1", "Hairy-1"],
+				"prefabName": "StankyHairy-1"
+			},
+			{
+				"name":"Snail",
+				"tier": 2,
+				"categories": ["Sticky", "Pointy"],
+				"blueprint" : ["Sticky-1", "Pointy-1"],
+				"prefabName": "StickyPointy-1"
+			},
+			{
+				"name":"Hubert",
+				"tier": 2,
+				"categories": ["Hairy", "Hairy"],
+				"blueprint" : ["Hairy-1", "Hairy-1"],
+				"prefabName": "HairyHairy-1"
 			},
 			{
 				"name":"Basic Chicken Wings",
