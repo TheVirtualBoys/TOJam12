@@ -16,8 +16,9 @@ public class IngredientGrid : MonoBehaviour {
 	public IngredientUI AddIngredient(Ingredient data)
 	{
 		// create new ingredientui and add it to the gridview
-		Transform cell = this.gridParent.GetChild(this.ingredientCount++);
-		return ClearAndInstantiateCell(cell, data);
+		IngredientUI cell = this.gridParent.GetChild(this.ingredientCount++).GetComponent<IngredientUI>();
+		cell.ClearAndInstantiateCell(data);
+		return cell;
 	}
 
 	public void InitGrid()
@@ -28,16 +29,5 @@ public class IngredientGrid : MonoBehaviour {
 		for (int i = 0; i < tier.Count; ++i) {
 			this.AddIngredient(tier[i]);
 		}
-	}
-
-	public static IngredientUI ClearAndInstantiateCell(Transform parent, Ingredient ingredient)
-	{
-		if (parent.childCount > 0) {
-			GameObject.Destroy(parent.GetChild(0));
-		}
-		IngredientUI prefab = Resources.Load<IngredientUI>(ingredient.prefabName);
-		IngredientUI obj = Instantiate<IngredientUI>(prefab, parent);
-		obj.data = ingredient;
-		return obj;
 	}
 }

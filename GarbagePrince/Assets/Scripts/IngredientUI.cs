@@ -2,30 +2,41 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+[RequireComponent(typeof(UnityEngine.UI.Button))]
 public class IngredientUI : MonoBehaviour {
 
+	public Ingredient data             = null;
 	private static Combotron combotron = null;
-	public Ingredient data = null;
-	private bool selected = false;
 
-	public void Start() {
+	private void Start()
+	{
 		if (combotron == null) {
 			combotron = GameObject.Find("ItemHolder").GetComponent<Combotron>();
 		}
 	}
 
-	public void Clicked()
+	public void Clicked(int isGridItem)
 	{
-		if (!this.selected) {
-			// try to select it
-			if (combotron.AddIngredient(this.data)) {
-				this.selected = true;
-			}
+		if (isGridItem != 0) {
+			combotron.AddIngredient(this.data);
 		} else {
-			// try to deselect it.
-			if (combotron.RemoveIngredient(this.data)) {
-				this.selected = false;
-			}
+			combotron.RemoveIngredient(this);
 		}
+	}
+
+	public void ClearCell()
+	{
+		if (this.gameObject.transform.childCount > 0) {
+			GameObject.Destroy(this.gameObject.transform.GetChild(0).gameObject);
+		}
+	}
+
+	public GameObject ClearAndInstantiateCell(Ingredient ingredient)
+	{
+		ClearCell();
+		GameObject prefab = Resources.Load<GameObject>(ingredient.prefabName);
+		GameObject obj    = Instantiate<GameObject>(prefab, this.gameObject.transform);
+		this.data         = ingredient;
+		return obj;
 	}
 }
