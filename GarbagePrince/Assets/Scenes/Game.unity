@@ -1100,7 +1100,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &697215361
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1502,7 +1502,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &962650378
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1805,15 +1805,15 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 154977331}
-        m_MethodName: SetTrigger
-        m_Mode: 5
+      - m_Target: {fileID: 2100245089}
+        m_MethodName: StartCombineAnimation
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: RevealItem
+          m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
@@ -2294,7 +2294,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1303067655
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2399,7 +2399,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1365891136
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2524,7 +2524,7 @@ ParticleSystem:
   moveWithTransform: 0
   moveWithCustomTransform: {fileID: 0}
   scalingMode: 1
-  randomSeed: 392383999
+  randomSeed: 2123955679
   InitialModule:
     serializedVersion: 3
     enabled: 1
@@ -15706,7 +15706,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &2055276387
 RectTransform:
   m_ObjectHideFlags: 0
@@ -15831,7 +15831,7 @@ ParticleSystem:
   moveWithTransform: 0
   moveWithCustomTransform: {fileID: 0}
   scalingMode: 1
-  randomSeed: -235979174
+  randomSeed: -1254842114
   InitialModule:
     serializedVersion: 3
     enabled: 1
@@ -18975,6 +18975,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   parentItem1: {fileID: 1430503057}
   parentItem2: {fileID: 328899528}
+  combineItemAnim: {fileID: 154977331}
 --- !u!1 &2130021309
 GameObject:
   m_ObjectHideFlags: 0

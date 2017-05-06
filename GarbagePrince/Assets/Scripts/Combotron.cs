@@ -4,20 +4,20 @@ using UnityEngine;
 
 public class Combotron : MonoBehaviour {
 
-	public Transform parentItem1 = null;
-	public Transform parentItem2 = null;
-	Ingredient item1            = null;
-	Ingredient item2            = null;
+	public IngredientUI item1     = null;
+	public IngredientUI item2     = null;
+	public Animator combineItemAnim  = null;
+	Ingredient createdItem           = null;
 
 	// try and add an ingredient
 	public bool AddIngredient(Ingredient item)
 	{
-		if (item1 == null) {
-			item1 = item;
-			IngredientGrid.ClearAndInstantiateCell(this.parentItem1.transform, item1);
-		} else if (item2 == null) {
-			item2 = item;
-			IngredientGrid.ClearAndInstantiateCell(this.parentItem2.transform, item2);
+		if (item1.data == null) {
+			item1.data = item;
+			item1.ClearAndInstantiateCell(item);
+		} else if (item2.data == null) {
+			item2.data = item;
+			item2.ClearAndInstantiateCell(item2.data);
 		} else {
 			// play a bad sound
 			return false;
@@ -25,14 +25,20 @@ public class Combotron : MonoBehaviour {
 		return true;
 	}
 
-	public bool RemoveIngredient(Ingredient item)
+	public bool IsSelected(Ingredient item)
 	{
-		if (item1.prefabName == item.prefabName) {
-			item1 = null;
-			GameObject.Destroy(parentItem1.transform.GetChild(0).gameObject);
-		} else if (item2.prefabName == item.prefabName) {
-			item2 = null;
-			GameObject.Destroy(parentItem2.transform.GetChild(0).gameObject);
+		return (item1.data != null && item1.data.prefabName == item.prefabName) ||
+		       (item2.data != null && item2.data.prefabName == item.prefabName);
+	}
+
+	public bool RemoveIngredient(IngredientUI item)
+	{
+		if (item1 == item) {
+			item.data = null;
+			item.ClearCell();
+		} else if (item2 != null && item2 == item) {
+			item2.data = null;
+			item2.ClearCell();
 		} else {
 			return false;
 		}
@@ -43,12 +49,15 @@ public class Combotron : MonoBehaviour {
 	{
 		if (this.item1 == null || item2 == null) return null;
 		// todo: logic to combine ingredients
+		this.RemoveIngredient(item1);
+		this.RemoveIngredient(item2);
 		return null;
 	}
 
 	public void StartCombineAnimation()
 	{
-
+		this.createdItem = Combine();
+		this.combineItemAnim.SetTrigger("RevealItem");
 	}
 
 	public void EndCombineAnimation()
