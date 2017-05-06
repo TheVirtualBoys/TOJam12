@@ -35,11 +35,13 @@ public class StaticData : MonoBehaviour
 		}
 	}
 
-	public static StaticData GetData()
+	public static StaticData Instance
 	{
-		if (staticData)
-			return staticData;
-		return null;
+		get {
+			if (staticData)
+				return staticData;
+			return null;
+		}
 	}
 
 	public List<Ingredient> IngredientTier(int tier)
