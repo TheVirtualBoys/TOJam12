@@ -14,7 +14,7 @@
 				"name": "Sticky1",
 				"tier": 1,
 				"categories": ["Sticky"],
-				"prefabName": "TempItem"
+				"prefabName": "Sticky-1"
 			},
 			{
 				"name": "Spicy1",
@@ -44,7 +44,7 @@
 				"name": "Pointy1",
 				"tier": 1,
 				"categories": ["Pointy"],
-				"prefabName": "TempItem"
+				"prefabName": "Pointy-1"
 			}
 		],
 		[
