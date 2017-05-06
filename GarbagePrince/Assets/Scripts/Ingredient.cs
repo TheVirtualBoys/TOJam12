@@ -9,7 +9,6 @@ public class Ingredient
 	public int tier { get; private set; }
 	public List<string> categories { get; private set; } // gotta cast to string on use :(
 	public List<string> blueprint { get; private set; }
-	public Animation anim;
 
 	public Ingredient(LitJson.JsonData data)
 	{

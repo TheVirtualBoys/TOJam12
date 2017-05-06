@@ -14,37 +14,37 @@
 				"name": "Sticky1",
 				"tier": 1,
 				"categories": ["Sticky"],
-				"prefabName": "Sticky1"
+				"prefabName": "TempItem"
 			},
 			{
 				"name": "Spicy1",
 				"tier": 1,
 				"categories": ["Spicy"],
-				"prefabName": "Spicy1"
+				"prefabName": "TempItem"
 			},
 			{
 				"name": "Moist1",
 				"tier": 1,
 				"categories": ["Moist"],
-				"prefabName": "Moist1"
+				"prefabName": "TempItem"
 			},
 			{
 				"name": "Stanky1",
 				"tier": 1,
 				"categories": ["Stanky"],
-				"prefabName": "Stanky1"
+				"prefabName": "TempItem"
 			},
 			{
 				"name": "Hairy1",
 				"tier": 1,
 				"categories": ["Hairy"],
-				"prefabName": "Hairy1"
+				"prefabName": "TempItem"
 			},
 			{
 				"name": "Pointy1",
 				"tier": 1,
 				"categories": ["Pointy"],
-				"prefabName": "Pointy"
+				"prefabName": "TempItem"
 			}
 		],
 		[
@@ -53,14 +53,14 @@
 				"tier": 2,
 				"categories": ["Pointy", "Hairy"],
 				"blueprint" : ["Pointy1", "Hairy1"],
-				"prefabName": "t2-1"
+				"prefabName": "TempItem"
 			},
 			{
 				"name":"Basic Chicken Wings",
 				"tier": 2,
 				"categories": ["Chicken"],
 				"blueprint" : [],
-				"prefabName": "chickenWings"
+				"prefabName": "TempItem"
 			}
 		]
 	]
