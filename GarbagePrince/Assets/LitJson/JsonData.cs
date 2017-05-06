@@ -697,7 +697,7 @@ namespace LitJson
                 "The JsonData instance has to be initialized first");
         }
 
-        private IDictionary EnsureDictionary ()
+        public IDictionary EnsureDictionary ()
         {
             if (type == JsonType.Object)
                 return (IDictionary) inst_object;

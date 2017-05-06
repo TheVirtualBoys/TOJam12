@@ -2,25 +2,24 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Ingredient : MonoBehaviour
+public class Ingredient
 {
+	public string ingredientName { get; private set; }
+	public string prefabName { get; private set; }
+	public int tier { get; private set; }
+	public List<string> categories { get; private set; } // gotta cast to string on use :(
+	public List<string> blueprint { get; private set; }
 
-	private string name;
-	private int tier;
-	private LitJson.JsonData categories; // gotta cast to string on use :(
-	private LitJson.JsonData blueprint;
-	public Animation anim;
-
-	public void Deserialize(string json)
+	public Ingredient(LitJson.JsonData data)
 	{
-		Deserialize(LitJson.JsonMapper.ToObject(json));
-	}
-
-	public void Deserialize(LitJson.JsonData data)
-	{
-		this.name = (string)data["name"];
-		this.tier = (int)data["tier"];
-		this.categories = data["categories"];
+		this.ingredientName = (string)data["name"];
+		this.prefabName     = (string)data["prefabName"];
+		this.tier           = (int)data["tier"];
+		this.categories     = data["categories"].ToArrayString();
+		this.blueprint      = null;
+		if (data.Contains("blueprint")) {
+			this.blueprint = data["blueprint"].ToArrayString();
+		}
 	}
 
 }
