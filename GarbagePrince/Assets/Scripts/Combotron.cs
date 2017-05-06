@@ -48,10 +48,22 @@ public class Combotron : MonoBehaviour {
 
 	public Ingredient Combine()
 	{
-		if (this.item1 == null || item2 == null) return null;
-		newItem = StaticData.Instance.GetIngredient("BasicWings");
+		if (this.item1 == null || this.item2 == null) return null;
+		newItem = null;
 
 		// logic to combine ingredients
+		int tier = Mathf.Max(this.item1.data.tier, this.item2.data.tier);
+		List<Ingredient> nextTier = StaticData.Instance.IngredientTier(tier);
+		for (int i = 0; i < nextTier.Count; ++i) {
+			if (nextTier[i].blueprint.Contains(this.item1.data.prefabName) && nextTier[i].blueprint.Contains(this.item2.data.prefabName)) {
+				newItem = nextTier[i];
+				break;
+			}
+		}
+
+		if (newItem == null) {
+			newItem = nextTier[nextTier.Count - 1];
+		}
 
 		this.RemoveIngredient(item1);
 		this.RemoveIngredient(item2);
