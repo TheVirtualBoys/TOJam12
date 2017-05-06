@@ -62,7 +62,7 @@ public class Combotron : MonoBehaviour {
 		}
 
 		if (newItem == null) {
-			newItem = nextTier[nextTier.Count - 1];
+			newItem = nextTier[Random.Range(0, nextTier.Count - 1)];
 		}
 
 		this.RemoveIngredient(item1);
