@@ -6,6 +6,4 @@ public class IngredientUI : MonoBehaviour {
 
 	private Ingredient data;
 
-
-
 }
