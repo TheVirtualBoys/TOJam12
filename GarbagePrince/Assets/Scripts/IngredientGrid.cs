@@ -33,6 +33,17 @@ public class IngredientGrid : MonoBehaviour {
 		return cell;
 	}
 
+	public static void RefreshSelectedStates()
+	{
+		for (int i = 0; i < gridParent.childCount; ++i) {
+			IngredientUI ingr = gridParent.GetChild(i).GetComponent<IngredientUI>();
+			if (ingr.data == null) break;
+			if (!combotron.IsSelected(ingr.data)) {
+				ingr.selectedObj.SetActive(false);
+			}
+		}
+	}
+
 	public void InitGrid()
 	{
 		ingredientCount = 0;
