@@ -5,22 +5,40 @@ using UnityEngine;
 [RequireComponent(typeof(UnityEngine.UI.Button))]
 public class IngredientUI : MonoBehaviour {
 
-	public Ingredient data             = null;
-	private static Combotron combotron = null;
+	public Ingredient data                     = null;
+	private static Combotron combotron         = null;
+	private static GameplayController gameplay = null;
+
+	public enum ButtonEvent {
+		BUTTON_COMBO,
+		BUTTON_GRID,
+		BUTTON_FINAL
+	}
 
 	private void Start()
 	{
 		if (combotron == null) {
 			combotron = GameObject.Find("ItemHolder").GetComponent<Combotron>();
 		}
+		if (gameplay == null) {
+			gameplay = GameObject.Find("Canvas").GetComponent<GameplayController>();
+		}
 	}
 
-	public void Clicked(int isGridItem)
+	public void Clicked(int buttonType)
 	{
-		if (isGridItem != 0) {
+		if (this.data == null) return;
+
+		switch ((ButtonEvent)buttonType) {
+		case ButtonEvent.BUTTON_GRID:
 			combotron.AddIngredient(this.data);
-		} else {
+			break;
+		case ButtonEvent.BUTTON_COMBO:
 			combotron.RemoveIngredient(this);
+			break;
+		case ButtonEvent.BUTTON_FINAL:
+			gameplay.SetFinalIngredient(this.data);
+			break;
 		}
 	}
 

@@ -55,14 +55,18 @@ public class Combotron : MonoBehaviour {
 		int tier = Mathf.Max(this.item1.data.tier, this.item2.data.tier);
 		List<Ingredient> nextTier = StaticData.Instance.IngredientTier(tier);
 		for (int i = 0; i < nextTier.Count; ++i) {
-			if (nextTier[i].blueprint.Contains(this.item1.data.prefabName) && nextTier[i].blueprint.Contains(this.item2.data.prefabName)) {
+			if (nextTier[i].blueprint.Count == 2 &&
+			    ((nextTier[i].blueprint[0] == this.item1.data.prefabName &&
+			     nextTier[i].blueprint[1] == this.item2.data.prefabName) ||
+			    (nextTier[i].blueprint[0] == this.item2.data.prefabName &&
+			     nextTier[i].blueprint[1] == this.item1.data.prefabName))) {
 				newItem = nextTier[i];
 				break;
 			}
 		}
 
 		if (newItem == null) {
-			newItem = nextTier[Random.Range(0, nextTier.Count - 1)];
+			newItem = nextTier[Random.Range(0, nextTier.Count)];
 		}
 
 		this.RemoveIngredient(item1);
