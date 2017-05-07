@@ -27,6 +27,12 @@ public class GameplayController : MonoBehaviour {
 
 	public void OnFinalCombination()
 	{
+		this.StartCoroutine(this.WaitForComboAnimToFinish());
+	}
+
+	public IEnumerator WaitForComboAnimToFinish()
+	{
+		yield return new WaitForSeconds(1.5f);
 		this.mainGame.SetActive(false);
 		this.combineItem.SetActive(false);
 		this.selectPresent.SetActive(true);
