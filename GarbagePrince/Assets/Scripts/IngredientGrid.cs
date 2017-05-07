@@ -38,9 +38,7 @@ public class IngredientGrid : MonoBehaviour {
 		for (int i = 0; i < gridParent.childCount; ++i) {
 			IngredientUI ingr = gridParent.GetChild(i).GetComponent<IngredientUI>();
 			if (ingr.data == null) break;
-			if (!combotron.IsSelected(ingr.data)) {
-				ingr.selectedObj.SetActive(false);
-			}
+			ingr.selectedObj.SetActive(combotron.IsSelected(ingr.data));
 		}
 	}
 
