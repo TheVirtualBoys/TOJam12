@@ -28,6 +28,7 @@ public class Combotron : MonoBehaviour {
 
 	public bool IsSelected(Ingredient item)
 	{
+		if (item == null) return false;
 		return (item1.data != null && item1.data.prefabName == item.prefabName) ||
 		       (item2.data != null && item2.data.prefabName == item.prefabName);
 	}
@@ -71,6 +72,7 @@ public class Combotron : MonoBehaviour {
 
 		this.RemoveIngredient(item1);
 		this.RemoveIngredient(item2);
+		IngredientGrid.RefreshSelectedStates();
 		return newItem;
 	}
 
