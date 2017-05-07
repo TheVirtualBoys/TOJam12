@@ -240,7 +240,28 @@
 				"prefabName": "WingsTier2"
 			}
 		],
-		[								
+		[	
+			{
+				"name":"CheeseCrab",
+				"tier": 4,
+				"categories": ["Pointy"],
+				"blueprint" : [],
+				"prefabName": "CheeseCrab-1"
+			},
+			{
+				"name":"Pacifier",
+				"tier": 4,
+				"categories": ["Pointy"],
+				"blueprint" : [],
+				"prefabName": "Pacifier-1"
+			},
+			{
+				"name":"Keyboard",
+				"tier": 4,
+				"categories": ["Pointy"],
+				"blueprint" : [],
+				"prefabName": "Keyboard-1"
+			},							
 			{
 				"name":"Chicken Wings 3",
 				"tier": 4,
@@ -272,6 +293,13 @@
 				"categories": ["Stanky"],
 				"blueprint" : [],
 				"prefabName": "DandruffPile-1"
+			},
+			{
+				"name":"BottleBugs",
+				"tier": 5,
+				"categories": ["Stanky"],
+				"blueprint" : [],
+				"prefabName": "BottleBugs-1"
 			},
 			{
 				"name":"Chicken Wings 5",
