@@ -6,6 +6,7 @@ using UnityEngine;
 public class IngredientUI : MonoBehaviour {
 
 	public Ingredient data                     = null;
+	public GameObject selectedObj              = null;
 	private static Combotron combotron         = null;
 	private static GameplayController gameplay = null;
 
@@ -32,9 +33,11 @@ public class IngredientUI : MonoBehaviour {
 		switch ((ButtonEvent)buttonType) {
 		case ButtonEvent.BUTTON_GRID:
 			combotron.AddIngredient(this.data);
+			selectedObj.SetActive(true);
 			break;
 		case ButtonEvent.BUTTON_COMBO:
 			combotron.RemoveIngredient(this);
+			IngredientGrid.RefreshSelectedStates();
 			break;
 		case ButtonEvent.BUTTON_FINAL:
 			gameplay.SetFinalIngredient(this.data);
@@ -55,6 +58,7 @@ public class IngredientUI : MonoBehaviour {
 		GameObject prefab = Resources.Load<GameObject>(ingredient.prefabName);
 		GameObject obj    = Instantiate<GameObject>(prefab, this.gameObject.transform);
 		this.data         = ingredient;
+		this.selectedObj  = obj.transform.GetChild(1).gameObject;
 		return obj;
 	}
 }
