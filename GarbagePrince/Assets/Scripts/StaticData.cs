@@ -18,7 +18,7 @@ public class StaticData : MonoBehaviour
 			GameObject.Destroy(this);
 			return;
 		}
-		string json = System.IO.File.ReadAllText(System.IO.Path.Combine(Application.dataPath, "Data.json"));
+		string json = Resources.Load<TextAsset>("Data").text;
 		JsonData data = JsonMapper.ToObject(json);
 
 		// load categories
