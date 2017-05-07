@@ -4,107 +4,121 @@ size: 1024,1024
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
-Prince_Arm_Back
-  rotate: false
-  xy: 582, 335
-  size: 156, 270
-  orig: 156, 270
-  offset: 0, 0
-  index: -1
 Prince_Arm_Front
   rotate: true
-  xy: 431, 3
+  xy: 2, 135
   size: 200, 578
   orig: 200, 578
   offset: 0, 0
   index: -1
 Prince_Body
   rotate: true
-  xy: 582, 607
+  xy: 582, 617
   size: 401, 425
   orig: 401, 425
   offset: 0, 0
   index: -1
 Prince_Flies
   rotate: false
-  xy: 2, 327
+  xy: 2, 337
   size: 578, 681
   orig: 578, 681
   offset: 0, 0
   index: -1
 Prince_Head_Back
   rotate: false
-  xy: 912, 513
+  xy: 907, 262
   size: 110, 92
   orig: 110, 92
   offset: 0, 0
   index: -1
 Prince_Head_Mouth
-  rotate: true
-  xy: 212, 5
-  size: 320, 217
-  orig: 320, 217
+  rotate: false
+  xy: 804, 23
+  size: 217, 121
+  orig: 217, 121
   offset: 0, 0
   index: -1
-Prince_Leg_Back
+Prince_Head_Mouth_Sad
   rotate: false
-  xy: 740, 376
-  size: 170, 229
-  orig: 170, 229
+  xy: 593, 2
+  size: 209, 142
+  orig: 209, 142
   offset: 0, 0
   index: -1
 Prince_Leg_Front
-  rotate: false
-  xy: 2, 2
+  rotate: true
+  xy: 582, 146
   size: 208, 323
   orig: 208, 323
   offset: 0, 0
   index: -1
 Prince_Puddle
   rotate: false
-  xy: 431, 205
+  xy: 2, 13
   size: 589, 120
   orig: 589, 120
   offset: 0, 0
   index: -1
+Prince_Scarf_Front
+  rotate: false
+  xy: 582, 356
+  size: 355, 259
+  orig: 355, 259
+  offset: 0, 0
+  index: -1
 
 Garbage Prince2.png
-size: 1024,1024
+size: 1024,512
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
+Prince_Arm_Back
+  rotate: true
+  xy: 2, 16
+  size: 156, 270
+  orig: 156, 270
+  offset: 0, 0
+  index: -1
 Prince_Crown
   rotate: false
-  xy: 2, 2
+  xy: 731, 40
   size: 197, 132
   orig: 197, 132
   offset: 0, 0
   index: -1
 Prince_Head
   rotate: false
-  xy: 2, 432
+  xy: 2, 174
   size: 296, 294
   orig: 296, 294
   offset: 0, 0
   index: -1
 Prince_Head_Eyes_Blink
   rotate: false
-  xy: 359, 693
+  xy: 300, 174
   size: 296, 294
   orig: 296, 294
   offset: 0, 0
   index: -1
 Prince_Head_Eyes_Open
   rotate: false
-  xy: 2, 136
+  xy: 598, 174
   size: 296, 294
   orig: 296, 294
   offset: 0, 0
   index: -1
-Prince_Scarf_Front
+Prince_Head_Mouth_SmallSmile
   rotate: false
-  xy: 2, 728
-  size: 355, 259
-  orig: 355, 259
+  xy: 505, 21
+  size: 224, 151
+  orig: 224, 151
+  offset: 0, 0
+  index: -1
+Prince_Leg_Back
+  rotate: true
+  xy: 274, 2
+  size: 170, 229
+  orig: 170, 229
   offset: 0, 0
   index: -1

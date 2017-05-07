@@ -1,14 +1,16 @@
 fileFormatVersion: 2
 guid: 6f4e7653a93674ae7bfbe2fa3f607e24
-timeCreated: 1494095380
+timeCreated: 1494181127
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
-    21300000: Prince_Crown
-    21300002: Prince_Head
-    21300004: Prince_Head_Eyes_Blink
-    21300006: Prince_Head_Eyes_Open
-    21300008: Prince_Scarf_Front
+    21300000: Prince_Arm_Back
+    21300002: Prince_Crown
+    21300004: Prince_Head
+    21300006: Prince_Head_Eyes_Blink
+    21300008: Prince_Head_Eyes_Open
+    21300010: Prince_Head_Mouth_SmallSmile
+    21300012: Prince_Leg_Back
   serializedVersion: 4
   mipmaps:
     mipMapMode: 0
@@ -67,11 +69,24 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Prince_Crown
+      name: Prince_Arm_Back
       rect:
         serializedVersion: 2
         x: 2
-        y: 890
+        y: 340
+        width: 270
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Prince_Crown
+      rect:
+        serializedVersion: 2
+        x: 731
+        y: 340
         width: 197
         height: 132
       alignment: 0
@@ -84,7 +99,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 2
-        y: 298
+        y: 44
         width: 296
         height: 294
       alignment: 0
@@ -96,8 +111,8 @@ TextureImporter:
       name: Prince_Head_Eyes_Blink
       rect:
         serializedVersion: 2
-        x: 359
-        y: 37
+        x: 300
+        y: 44
         width: 296
         height: 294
       alignment: 0
@@ -109,8 +124,8 @@ TextureImporter:
       name: Prince_Head_Eyes_Open
       rect:
         serializedVersion: 2
-        x: 2
-        y: 594
+        x: 598
+        y: 44
         width: 296
         height: 294
       alignment: 0
@@ -119,13 +134,26 @@ TextureImporter:
       outline: []
       tessellationDetail: -1
     - serializedVersion: 2
-      name: Prince_Scarf_Front
+      name: Prince_Head_Mouth_SmallSmile
       rect:
         serializedVersion: 2
-        x: 2
-        y: 37
-        width: 355
-        height: 259
+        x: 505
+        y: 340
+        width: 224
+        height: 151
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Prince_Leg_Back
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 340
+        width: 229
+        height: 170
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}

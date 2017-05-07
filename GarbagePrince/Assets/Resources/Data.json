@@ -11,37 +11,37 @@
 	"ingredients" : [
 		[
 			{
-				"name": "Sticky1",
+				"name": "Pre Chewed Gum",
 				"tier": 1,
 				"categories": ["Sticky"],
 				"prefabName": "Sticky-1"
 			},
 			{
-				"name": "Spicy1",
+				"name": "Literally Fire",
 				"tier": 1,
 				"categories": ["Spicy"],
 				"prefabName": "Spicy-1"
 			},
 			{
-				"name": "Moist1",
+				"name": "A tasty sponge",
 				"tier": 1,
 				"categories": ["Moist"],
 				"prefabName": "Moist-1"
 			},
 			{
-				"name": "Stanky1",
+				"name": "Clean Underpants",
 				"tier": 1,
 				"categories": ["Stanky"],
 				"prefabName": "Stanky-1"
 			},
 			{
-				"name": "Hairy1",
+				"name": "Some Hair",
 				"tier": 1,
 				"categories": ["Hairy"],
 				"prefabName": "Hairy-1"
 			},
 			{
-				"name": "Pointy1",
+				"name": "Goat Pal",
 				"tier": 1,
 				"categories": ["Pointy"],
 				"prefabName": "Pointy-1"
@@ -56,7 +56,7 @@
 				"prefabName": "TempItem"
 			},
 			{
-				"name":"Lolipop",
+				"name":"Booboo lolipop",
 				"tier": 2,
 				"categories": ["Sticky", "Sticky"],
 				"blueprint" : ["Sticky-1", "Sticky-1"],
@@ -70,28 +70,28 @@
 				"prefabName": "StankyStanky-1"
 			},
 			{
-				"name":"HotSauce",
+				"name":"Hot Sauce",
 				"tier": 2,
 				"categories": ["Sticky", "Spicy"],
 				"blueprint" : ["Sticky-1", "Spicy-1"],
 				"prefabName": "StickySpicy-1"
 			},
 			{
-				"name":"Spaghetti",
+				"name":"Spaghetti and meatballs",
 				"tier": 2,
 				"categories": ["Sticky", "Moist"],
 				"blueprint" : ["Sticky-1", "Moist-1"],
 				"prefabName": "StickyMoist-1"
 			},
 			{
-				"name":"Hubert",
+				"name":"Hairball with a moustache",
 				"tier": 2,
 				"categories": ["Hairy", "Hairy"],
 				"blueprint" : ["Hairy-1", "Hairy-1"],
 				"prefabName": "HairyHairy-1"
 			},
 			{
-				"name":"MultiSword",
+				"name":"MegaSword",
 				"tier": 2,
 				"categories": ["Pointy", "Pointy"],
 				"blueprint" : ["Pointy-1", "Pointy-1"],
@@ -105,42 +105,42 @@
 				"prefabName": "HairyPointy-1"
 			},
 			{
-				"name":"Butt",
+				"name":"A Butt",
 				"tier": 2,
 				"categories": ["Stanky", "Hairy"],
 				"blueprint" : ["Stanky-1", "Hairy-1"],
 				"prefabName": "StankyHairy-1"
 			},
 			{
-				"name":"Snail",
+				"name":"Cooool Snail",
 				"tier": 2,
 				"categories": ["Sticky", "Pointy"],
 				"blueprint" : ["Sticky-1", "Pointy-1"],
 				"prefabName": "StickyPointy-1"
 			},
 			{
-				"name":"Durian",
+				"name":"Durian is gross",
 				"tier": 2,
 				"categories": ["Stanky", "Pointy"],
 				"blueprint" : ["Stanky-1", "Pointy-1"],
 				"prefabName": "StankyPointy-1"
 			},
 			{
-				"name":"PooStick",
+				"name":"A Poo Stick",
 				"tier": 2,
 				"categories": ["Stanky", "Sticky"],
 				"blueprint" : ["Stanky-1", "Sticky-1"],
 				"prefabName": "StickyStanky-1"
 			},
 			{
-				"name":"HairyTape",
+				"name":"Hairy Tape",
 				"tier": 2,
 				"categories": ["Hairy", "Sticky"],
 				"blueprint" : ["Hairy-1", "Sticky-1"],
 				"prefabName": "StickyHairy-1"
 			},
 			{
-				"name":"PerfectEnchilada",
+				"name":"The Perfect Enchilada",
 				"tier": 2,
 				"categories": ["Moist", "Spicy"],
 				"blueprint" : ["Moist-1", "Spicy-1"],
@@ -161,49 +161,49 @@
 				"prefabName": "MoistStanky-1"
 			},
 			{
-				"name":"Taco",
+				"name":"Happy Taco",
 				"tier": 2,
 				"categories": ["Spicy", "Pointy"],
 				"blueprint" : ["Spicy-1", "Pointy-1"],
 				"prefabName": "SpicyPointy-1"
 			},
 			{
-				"name":"Cake",
+				"name":"A really nice Cake",
 				"tier": 2,
 				"categories": ["Moist", "Moist"],
 				"blueprint" : ["Moist-1", "Moist-1"],
 				"prefabName": "MoistMoist-1"
 			},
 			{
-				"name":"FishBones",
+				"name":"Fish Bones",
 				"tier": 2,
 				"categories": ["Moist", "Pointy"],
 				"blueprint" : ["Moist-1", "Pointy-1"],
 				"prefabName": "MoistPointy-1"
 			},
 			{
-				"name":"HairBrush",
+				"name":"Spicy Hair Brush",
 				"tier": 2,
 				"categories": ["Spicy", "Hairy"],
 				"blueprint" : ["Spicy-1", "Hairy-1"],
 				"prefabName": "SpicyHairy-1"
 			},
 			{
-				"name":"GhostPepper",
+				"name":"Ghost Pepper",
 				"tier": 2,
 				"categories": ["Spicy", "Spicy"],
 				"blueprint" : ["Spicy-1", "Spicy-1"],
 				"prefabName": "SpicySpicy-1"
 			},
 			{
-				"name":"Cheeetos",
+				"name":"Flamin Hot Cheetos",
 				"tier": 2,
 				"categories": ["Spicy", "Stanky"],
 				"blueprint" : ["Spicy-1", "Stanky-1"],
 				"prefabName": "SpicyStanky-1"
 			},											
 			{
-				"name":"Basic Chicken Wings",
+				"name":"Plain Breaded Wings",
 				"tier": 2,
 				"categories": ["Chicken"],
 				"blueprint" : [],
@@ -212,28 +212,28 @@
 		],
 		[								
 			{
-				"name":"GrossController",
+				"name":"A very Gross Controller",
 				"tier": 3,
 				"categories": ["Stanky"],
 				"blueprint" : [],
 				"prefabName": "GrossController-1"
 			},
 			{
-				"name":"HairSpaghetti",
+				"name":"Hair Spaghetti and razors",
 				"tier": 3,
 				"categories": ["Hairy"],
 				"blueprint" : [],
 				"prefabName": "HairSpaghetti-1"
 			},
 			{
-				"name":"FingerBlanket",
+				"name":"Finger in a Blanket",
 				"tier": 3,
 				"categories": ["Pointy"],
 				"blueprint" : [],
 				"prefabName": "FingerBlanket-1"
 			},
 			{
-				"name":"Chicken Wings 2",
+				"name":"So Spice Wings",
 				"tier": 3,
 				"categories": ["Chicken"],
 				"blueprint" : [],
@@ -242,28 +242,28 @@
 		],
 		[	
 			{
-				"name":"CheeseCrab",
+				"name":"A crab eating cheese",
 				"tier": 4,
 				"categories": ["Pointy"],
 				"blueprint" : [],
 				"prefabName": "CheeseCrab-1"
 			},
 			{
-				"name":"Pacifier",
+				"name":"Pacifier that fell on the floor in a bathroom",
 				"tier": 4,
 				"categories": ["Pointy"],
 				"blueprint" : [],
 				"prefabName": "Pacifier-1"
 			},
 			{
-				"name":"Keyboard",
+				"name":"your Keyboard",
 				"tier": 4,
 				"categories": ["Pointy"],
 				"blueprint" : [],
 				"prefabName": "Keyboard-1"
 			},							
 			{
-				"name":"Chicken Wings 3",
+				"name":"Lemon Pepper Wings",
 				"tier": 4,
 				"categories": ["Chicken"],
 				"blueprint" : [],
@@ -272,7 +272,7 @@
 		],
 		[								
 			{
-				"name":"Chicken Wings 4",
+				"name":"Honey Garlic Wings",
 				"tier": 5,
 				"categories": ["Chicken"],
 				"blueprint" : [],
@@ -281,28 +281,28 @@
 		],
 		[								
 			{
-				"name":"PostIt",
+				"name":"Note from your mom",
 				"tier": 5,
 				"categories": ["Sticky"],
 				"blueprint" : [],
 				"prefabName": "PostItNote-1"
 			},
 			{
-				"name":"DandruffPile",
+				"name":"Soooo much dandruff",
 				"tier": 5,
 				"categories": ["Stanky"],
 				"blueprint" : [],
 				"prefabName": "DandruffPile-1"
 			},
 			{
-				"name":"BottleBugs",
+				"name":"A bottle full of bugs and cigarette butts",
 				"tier": 5,
 				"categories": ["Stanky"],
 				"blueprint" : [],
 				"prefabName": "BottleBugs-1"
 			},
 			{
-				"name":"Chicken Wings 5",
+				"name":"Buffalo wings with blue cheese dip n sides",
 				"tier": 5,
 				"categories": ["Chicken"],
 				"blueprint" : [],

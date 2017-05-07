@@ -418,7 +418,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 2
         time: 0
-        value: 1
+        value: 0
         inSlope: Infinity
         outSlope: Infinity
         tangentMode: 31
@@ -426,7 +426,23 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_IsActive
-    path: Bone_Body_Bottom/Prince_Flies/Prince_Flies
+    path: Bone_Body_Bottom/Bone_Body_Top/Bone_Head/Prince_Head_Mouth/Prince_Head_Mouth
+    classID: 1
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 31
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_IsActive
+    path: Bone_Body_Bottom/Bone_Body_Top/Bone_Head/Prince_Head_Mouth/Prince_Head_Mouth_Sad
     classID: 1
     script: {fileID: 0}
   - curve:
@@ -442,7 +458,39 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_IsActive
-    path: Bone_Body_Bottom/Prince_Puddle/Prince_Puddle
+    path: Puddle Flies/Prince_Flies/Prince_Flies
+    classID: 1
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 1
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 31
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_IsActive
+    path: Bone_Body_Bottom/Bone_Body_Top/Bone_Head/Bone_Crown/Prince_Head_Back/Prince_Head_Back
+    classID: 1
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 1
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 31
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_IsActive
+    path: Puddle Flies/Prince_Puddle/Prince_Puddle
     classID: 1
     script: {fileID: 0}
   - curve:
@@ -522,39 +570,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_IsActive
-    path: Bone_Body_Bottom/Bone_Body_Top/Bone_Shoulder_Front/Bone_Arm_Front/Prince_Arm_Front/Prince_Arm_Front
-    classID: 1
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 2
-        time: 0
-        value: 1
-        inSlope: Infinity
-        outSlope: Infinity
-        tangentMode: 31
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_IsActive
     path: Bone_Body_Bottom/Bone_Body_Top/Prince_Scarf_Front/Prince_Scarf_Front
-    classID: 1
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 2
-        time: 0
-        value: 1
-        inSlope: Infinity
-        outSlope: Infinity
-        tangentMode: 31
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_IsActive
-    path: Bone_Body_Bottom/Bone_Body_Top/Bone_Head/Bone_Crown/Prince_Head_Back/Prince_Head_Back
     classID: 1
     script: {fileID: 0}
   - curve:
@@ -638,7 +654,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_IsActive
-    path: Bone_Body_Bottom/Bone_Body_Top/Bone_Head/Prince_Head_Mouth/Prince_Head_Mouth
+    path: Bone_Body_Bottom/Bone_Body_Top/Bone_Head/Prince_Head_Mouth/Prince_Head_Mouth_SmallSmile
     classID: 1
     script: {fileID: 0}
   - curve:
@@ -655,6 +671,22 @@ AnimationClip:
       m_RotationOrder: 4
     attribute: m_IsActive
     path: Bone_Body_Bottom/Bone_Body_Top/Bone_Head/Bone_Crown/Prince_Crown/Prince_Crown
+    classID: 1
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 1
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 31
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_IsActive
+    path: Bone_Body_Bottom/Bone_Body_Top/Bone_Shoulder_Front/Bone_Arm_Front/Prince_Arm_Front/Prince_Arm_Front
     classID: 1
     script: {fileID: 0}
   - curve:
@@ -913,6 +945,518 @@ AnimationClip:
     path: Bone_Body_Bottom/Bone_Body_Top/Bone_Head/Prince_Head_Mouth/Prince_Head_Mouth
     classID: 212
     script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 21
+      - serializedVersion: 2
+        time: 0.9
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 21
+      - serializedVersion: 2
+        time: 0.9333
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 21
+      - serializedVersion: 2
+        time: 1.1667
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 21
+      - serializedVersion: 2
+        time: 1.2
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 21
+      - serializedVersion: 2
+        time: 1.3
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 21
+      - serializedVersion: 2
+        time: 1.3333
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 21
+      - serializedVersion: 2
+        time: 1.4333
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 21
+      - serializedVersion: 2
+        time: 1.4667
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 21
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_Color.r
+    path: Bone_Body_Bottom/Bone_Body_Top/Bone_Head/Prince_Head_Mouth/Prince_Head_Mouth_Sad
+    classID: 212
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 21
+      - serializedVersion: 2
+        time: 0.9
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 21
+      - serializedVersion: 2
+        time: 0.9333
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 21
+      - serializedVersion: 2
+        time: 1.1667
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 21
+      - serializedVersion: 2
+        time: 1.2
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 21
+      - serializedVersion: 2
+        time: 1.3
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 21
+      - serializedVersion: 2
+        time: 1.3333
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 21
+      - serializedVersion: 2
+        time: 1.4333
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 21
+      - serializedVersion: 2
+        time: 1.4667
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 21
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_Color.b
+    path: Bone_Body_Bottom/Bone_Body_Top/Bone_Head/Prince_Head_Mouth/Prince_Head_Mouth_Sad
+    classID: 212
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 21
+      - serializedVersion: 2
+        time: 0.9
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 21
+      - serializedVersion: 2
+        time: 0.9333
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 21
+      - serializedVersion: 2
+        time: 1.1667
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 21
+      - serializedVersion: 2
+        time: 1.2
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 21
+      - serializedVersion: 2
+        time: 1.3
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 21
+      - serializedVersion: 2
+        time: 1.3333
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 21
+      - serializedVersion: 2
+        time: 1.4333
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 21
+      - serializedVersion: 2
+        time: 1.4667
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 21
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_Color.g
+    path: Bone_Body_Bottom/Bone_Body_Top/Bone_Head/Prince_Head_Mouth/Prince_Head_Mouth_Sad
+    classID: 212
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 21
+      - serializedVersion: 2
+        time: 0.9
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 21
+      - serializedVersion: 2
+        time: 0.9333
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 21
+      - serializedVersion: 2
+        time: 1.1667
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 21
+      - serializedVersion: 2
+        time: 1.2
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 21
+      - serializedVersion: 2
+        time: 1.3
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 21
+      - serializedVersion: 2
+        time: 1.3333
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 21
+      - serializedVersion: 2
+        time: 1.4333
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 21
+      - serializedVersion: 2
+        time: 1.4667
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 21
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_Color.a
+    path: Bone_Body_Bottom/Bone_Body_Top/Bone_Head/Prince_Head_Mouth/Prince_Head_Mouth_Sad
+    classID: 212
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 21
+      - serializedVersion: 2
+        time: 0.9
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 21
+      - serializedVersion: 2
+        time: 0.9333
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 21
+      - serializedVersion: 2
+        time: 1.1667
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 21
+      - serializedVersion: 2
+        time: 1.2
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 21
+      - serializedVersion: 2
+        time: 1.3
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 21
+      - serializedVersion: 2
+        time: 1.3333
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 21
+      - serializedVersion: 2
+        time: 1.4333
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 21
+      - serializedVersion: 2
+        time: 1.4667
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 21
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_Color.r
+    path: Bone_Body_Bottom/Bone_Body_Top/Bone_Head/Prince_Head_Mouth/Prince_Head_Mouth_SmallSmile
+    classID: 212
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 21
+      - serializedVersion: 2
+        time: 0.9
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 21
+      - serializedVersion: 2
+        time: 0.9333
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 21
+      - serializedVersion: 2
+        time: 1.1667
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 21
+      - serializedVersion: 2
+        time: 1.2
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 21
+      - serializedVersion: 2
+        time: 1.3
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 21
+      - serializedVersion: 2
+        time: 1.3333
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 21
+      - serializedVersion: 2
+        time: 1.4333
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 21
+      - serializedVersion: 2
+        time: 1.4667
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 21
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_Color.b
+    path: Bone_Body_Bottom/Bone_Body_Top/Bone_Head/Prince_Head_Mouth/Prince_Head_Mouth_SmallSmile
+    classID: 212
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 21
+      - serializedVersion: 2
+        time: 0.9
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 21
+      - serializedVersion: 2
+        time: 0.9333
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 21
+      - serializedVersion: 2
+        time: 1.1667
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 21
+      - serializedVersion: 2
+        time: 1.2
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 21
+      - serializedVersion: 2
+        time: 1.3
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 21
+      - serializedVersion: 2
+        time: 1.3333
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 21
+      - serializedVersion: 2
+        time: 1.4333
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 21
+      - serializedVersion: 2
+        time: 1.4667
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 21
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_Color.g
+    path: Bone_Body_Bottom/Bone_Body_Top/Bone_Head/Prince_Head_Mouth/Prince_Head_Mouth_SmallSmile
+    classID: 212
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 21
+      - serializedVersion: 2
+        time: 0.9
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 21
+      - serializedVersion: 2
+        time: 0.9333
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 21
+      - serializedVersion: 2
+        time: 1.1667
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 21
+      - serializedVersion: 2
+        time: 1.2
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 21
+      - serializedVersion: 2
+        time: 1.3
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 21
+      - serializedVersion: 2
+        time: 1.3333
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 21
+      - serializedVersion: 2
+        time: 1.4333
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 21
+      - serializedVersion: 2
+        time: 1.4667
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 21
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_Color.a
+    path: Bone_Body_Bottom/Bone_Body_Top/Bone_Head/Prince_Head_Mouth/Prince_Head_Mouth_SmallSmile
+    classID: 212
+    script: {fileID: 0}
   m_PPtrCurves: []
   m_SampleRate: 30
   m_WrapMode: 0
@@ -1013,14 +1557,35 @@ AnimationClip:
       customType: 0
       isPPtrCurve: 0
     - serializedVersion: 2
-      path: 869489091
+      path: 3061033342
       attribute: 2086281974
       script: {fileID: 0}
       typeID: 1
       customType: 0
       isPPtrCurve: 0
     - serializedVersion: 2
-      path: 1933809894
+      path: 2444239466
+      attribute: 2086281974
+      script: {fileID: 0}
+      typeID: 1
+      customType: 0
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 1311786320
+      attribute: 2086281974
+      script: {fileID: 0}
+      typeID: 1
+      customType: 0
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 3286819638
+      attribute: 2086281974
+      script: {fileID: 0}
+      typeID: 1
+      customType: 0
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 1026449555
       attribute: 2086281974
       script: {fileID: 0}
       typeID: 1
@@ -1055,21 +1620,7 @@ AnimationClip:
       customType: 0
       isPPtrCurve: 0
     - serializedVersion: 2
-      path: 2969185906
-      attribute: 2086281974
-      script: {fileID: 0}
-      typeID: 1
-      customType: 0
-      isPPtrCurve: 0
-    - serializedVersion: 2
       path: 1859886681
-      attribute: 2086281974
-      script: {fileID: 0}
-      typeID: 1
-      customType: 0
-      isPPtrCurve: 0
-    - serializedVersion: 2
-      path: 3286819638
       attribute: 2086281974
       script: {fileID: 0}
       typeID: 1
@@ -1090,7 +1641,7 @@ AnimationClip:
       customType: 0
       isPPtrCurve: 0
     - serializedVersion: 2
-      path: 3061033342
+      path: 1969760747
       attribute: 2086281974
       script: {fileID: 0}
       typeID: 1
@@ -1104,7 +1655,28 @@ AnimationClip:
       customType: 0
       isPPtrCurve: 0
     - serializedVersion: 2
+      path: 2969185906
+      attribute: 2086281974
+      script: {fileID: 0}
+      typeID: 1
+      customType: 0
+      isPPtrCurve: 0
+    - serializedVersion: 2
       path: 3061033342
+      attribute: 304273561
+      script: {fileID: 0}
+      typeID: 212
+      customType: 0
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 2444239466
+      attribute: 304273561
+      script: {fileID: 0}
+      typeID: 212
+      customType: 0
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 1969760747
       attribute: 304273561
       script: {fileID: 0}
       typeID: 212
@@ -1147,6 +1719,48 @@ AnimationClip:
       isPPtrCurve: 0
     - serializedVersion: 2
       path: 3061033342
+      attribute: 4215373228
+      script: {fileID: 0}
+      typeID: 212
+      customType: 0
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 2444239466
+      attribute: 2526845255
+      script: {fileID: 0}
+      typeID: 212
+      customType: 0
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 2444239466
+      attribute: 2334886179
+      script: {fileID: 0}
+      typeID: 212
+      customType: 0
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 2444239466
+      attribute: 4215373228
+      script: {fileID: 0}
+      typeID: 212
+      customType: 0
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 1969760747
+      attribute: 2526845255
+      script: {fileID: 0}
+      typeID: 212
+      customType: 0
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 1969760747
+      attribute: 2334886179
+      script: {fileID: 0}
+      typeID: 212
+      customType: 0
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 1969760747
       attribute: 4215373228
       script: {fileID: 0}
       typeID: 212
@@ -1231,7 +1845,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 2
         time: 0
-        value: 1
+        value: 0
         inSlope: Infinity
         outSlope: Infinity
         tangentMode: 31
@@ -1239,7 +1853,23 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_IsActive
-    path: Bone_Body_Bottom/Prince_Flies/Prince_Flies
+    path: Bone_Body_Bottom/Bone_Body_Top/Bone_Head/Prince_Head_Mouth/Prince_Head_Mouth
+    classID: 1
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 31
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_IsActive
+    path: Bone_Body_Bottom/Bone_Body_Top/Bone_Head/Prince_Head_Mouth/Prince_Head_Mouth_Sad
     classID: 1
     script: {fileID: 0}
   - curve:
@@ -1255,7 +1885,39 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_IsActive
-    path: Bone_Body_Bottom/Prince_Puddle/Prince_Puddle
+    path: Puddle Flies/Prince_Flies/Prince_Flies
+    classID: 1
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 1
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 31
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_IsActive
+    path: Bone_Body_Bottom/Bone_Body_Top/Bone_Head/Bone_Crown/Prince_Head_Back/Prince_Head_Back
+    classID: 1
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 1
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 31
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_IsActive
+    path: Puddle Flies/Prince_Puddle/Prince_Puddle
     classID: 1
     script: {fileID: 0}
   - curve:
@@ -1335,39 +1997,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_IsActive
-    path: Bone_Body_Bottom/Bone_Body_Top/Bone_Shoulder_Front/Bone_Arm_Front/Prince_Arm_Front/Prince_Arm_Front
-    classID: 1
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 2
-        time: 0
-        value: 1
-        inSlope: Infinity
-        outSlope: Infinity
-        tangentMode: 31
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_IsActive
     path: Bone_Body_Bottom/Bone_Body_Top/Prince_Scarf_Front/Prince_Scarf_Front
-    classID: 1
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 2
-        time: 0
-        value: 1
-        inSlope: Infinity
-        outSlope: Infinity
-        tangentMode: 31
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_IsActive
-    path: Bone_Body_Bottom/Bone_Body_Top/Bone_Head/Bone_Crown/Prince_Head_Back/Prince_Head_Back
     classID: 1
     script: {fileID: 0}
   - curve:
@@ -1451,7 +2081,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_IsActive
-    path: Bone_Body_Bottom/Bone_Body_Top/Bone_Head/Prince_Head_Mouth/Prince_Head_Mouth
+    path: Bone_Body_Bottom/Bone_Body_Top/Bone_Head/Prince_Head_Mouth/Prince_Head_Mouth_SmallSmile
     classID: 1
     script: {fileID: 0}
   - curve:
@@ -1468,6 +2098,22 @@ AnimationClip:
       m_RotationOrder: 4
     attribute: m_IsActive
     path: Bone_Body_Bottom/Bone_Body_Top/Bone_Head/Bone_Crown/Prince_Crown/Prince_Crown
+    classID: 1
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 1
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 31
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_IsActive
+    path: Bone_Body_Bottom/Bone_Body_Top/Bone_Shoulder_Front/Bone_Arm_Front/Prince_Arm_Front/Prince_Arm_Front
     classID: 1
     script: {fileID: 0}
   - curve:
@@ -3046,6 +3692,518 @@ AnimationClip:
     path: Bone_Body_Bottom/Bone_Body_Top/Bone_Head/Prince_Head_Mouth/Prince_Head_Mouth
     classID: 212
     script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 21
+      - serializedVersion: 2
+        time: 0.9
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 21
+      - serializedVersion: 2
+        time: 0.9333
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 21
+      - serializedVersion: 2
+        time: 1.1667
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 21
+      - serializedVersion: 2
+        time: 1.2
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 21
+      - serializedVersion: 2
+        time: 1.3
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 21
+      - serializedVersion: 2
+        time: 1.3333
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 21
+      - serializedVersion: 2
+        time: 1.4333
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 21
+      - serializedVersion: 2
+        time: 1.4667
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 21
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_Color.r
+    path: Bone_Body_Bottom/Bone_Body_Top/Bone_Head/Prince_Head_Mouth/Prince_Head_Mouth_Sad
+    classID: 212
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 21
+      - serializedVersion: 2
+        time: 0.9
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 21
+      - serializedVersion: 2
+        time: 0.9333
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 21
+      - serializedVersion: 2
+        time: 1.1667
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 21
+      - serializedVersion: 2
+        time: 1.2
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 21
+      - serializedVersion: 2
+        time: 1.3
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 21
+      - serializedVersion: 2
+        time: 1.3333
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 21
+      - serializedVersion: 2
+        time: 1.4333
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 21
+      - serializedVersion: 2
+        time: 1.4667
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 21
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_Color.b
+    path: Bone_Body_Bottom/Bone_Body_Top/Bone_Head/Prince_Head_Mouth/Prince_Head_Mouth_Sad
+    classID: 212
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 21
+      - serializedVersion: 2
+        time: 0.9
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 21
+      - serializedVersion: 2
+        time: 0.9333
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 21
+      - serializedVersion: 2
+        time: 1.1667
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 21
+      - serializedVersion: 2
+        time: 1.2
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 21
+      - serializedVersion: 2
+        time: 1.3
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 21
+      - serializedVersion: 2
+        time: 1.3333
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 21
+      - serializedVersion: 2
+        time: 1.4333
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 21
+      - serializedVersion: 2
+        time: 1.4667
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 21
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_Color.g
+    path: Bone_Body_Bottom/Bone_Body_Top/Bone_Head/Prince_Head_Mouth/Prince_Head_Mouth_Sad
+    classID: 212
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 21
+      - serializedVersion: 2
+        time: 0.9
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 21
+      - serializedVersion: 2
+        time: 0.9333
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 21
+      - serializedVersion: 2
+        time: 1.1667
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 21
+      - serializedVersion: 2
+        time: 1.2
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 21
+      - serializedVersion: 2
+        time: 1.3
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 21
+      - serializedVersion: 2
+        time: 1.3333
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 21
+      - serializedVersion: 2
+        time: 1.4333
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 21
+      - serializedVersion: 2
+        time: 1.4667
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 21
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_Color.a
+    path: Bone_Body_Bottom/Bone_Body_Top/Bone_Head/Prince_Head_Mouth/Prince_Head_Mouth_Sad
+    classID: 212
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 21
+      - serializedVersion: 2
+        time: 0.9
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 21
+      - serializedVersion: 2
+        time: 0.9333
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 21
+      - serializedVersion: 2
+        time: 1.1667
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 21
+      - serializedVersion: 2
+        time: 1.2
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 21
+      - serializedVersion: 2
+        time: 1.3
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 21
+      - serializedVersion: 2
+        time: 1.3333
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 21
+      - serializedVersion: 2
+        time: 1.4333
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 21
+      - serializedVersion: 2
+        time: 1.4667
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 21
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_Color.r
+    path: Bone_Body_Bottom/Bone_Body_Top/Bone_Head/Prince_Head_Mouth/Prince_Head_Mouth_SmallSmile
+    classID: 212
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 21
+      - serializedVersion: 2
+        time: 0.9
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 21
+      - serializedVersion: 2
+        time: 0.9333
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 21
+      - serializedVersion: 2
+        time: 1.1667
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 21
+      - serializedVersion: 2
+        time: 1.2
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 21
+      - serializedVersion: 2
+        time: 1.3
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 21
+      - serializedVersion: 2
+        time: 1.3333
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 21
+      - serializedVersion: 2
+        time: 1.4333
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 21
+      - serializedVersion: 2
+        time: 1.4667
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 21
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_Color.b
+    path: Bone_Body_Bottom/Bone_Body_Top/Bone_Head/Prince_Head_Mouth/Prince_Head_Mouth_SmallSmile
+    classID: 212
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 21
+      - serializedVersion: 2
+        time: 0.9
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 21
+      - serializedVersion: 2
+        time: 0.9333
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 21
+      - serializedVersion: 2
+        time: 1.1667
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 21
+      - serializedVersion: 2
+        time: 1.2
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 21
+      - serializedVersion: 2
+        time: 1.3
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 21
+      - serializedVersion: 2
+        time: 1.3333
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 21
+      - serializedVersion: 2
+        time: 1.4333
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 21
+      - serializedVersion: 2
+        time: 1.4667
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 21
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_Color.g
+    path: Bone_Body_Bottom/Bone_Body_Top/Bone_Head/Prince_Head_Mouth/Prince_Head_Mouth_SmallSmile
+    classID: 212
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 21
+      - serializedVersion: 2
+        time: 0.9
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 21
+      - serializedVersion: 2
+        time: 0.9333
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 21
+      - serializedVersion: 2
+        time: 1.1667
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 21
+      - serializedVersion: 2
+        time: 1.2
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 21
+      - serializedVersion: 2
+        time: 1.3
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 21
+      - serializedVersion: 2
+        time: 1.3333
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 21
+      - serializedVersion: 2
+        time: 1.4333
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 21
+      - serializedVersion: 2
+        time: 1.4667
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 21
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_Color.a
+    path: Bone_Body_Bottom/Bone_Body_Top/Bone_Head/Prince_Head_Mouth/Prince_Head_Mouth_SmallSmile
+    classID: 212
+    script: {fileID: 0}
   m_EulerEditorCurves:
   - curve:
       serializedVersion: 2
@@ -3371,8 +4529,8 @@ AnimationClip:
       - serializedVersion: 2
         time: 2
         value: 0
-        inSlope: 0
-        outSlope: -0
+        inSlope: -0
+        outSlope: 0
         tangentMode: 0
       m_PreInfinity: 2
       m_PostInfinity: 2
@@ -3387,8 +4545,8 @@ AnimationClip:
       - serializedVersion: 2
         time: 2
         value: 0
-        inSlope: 0
-        outSlope: -0
+        inSlope: -0
+        outSlope: 0
         tangentMode: 0
       m_PreInfinity: 2
       m_PostInfinity: 2
@@ -3403,8 +4561,8 @@ AnimationClip:
       - serializedVersion: 2
         time: 2
         value: -15.23
-        inSlope: 6.202862e-31
-        outSlope: -2.3850071e-36
+        inSlope: -0.000005722046
+        outSlope: 0.000005722046
         tangentMode: 0
       m_PreInfinity: 2
       m_PostInfinity: 2
