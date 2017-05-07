@@ -84,6 +84,20 @@
 				"prefabName": "StickyMoist-1"
 			},
 			{
+				"name":"Hubert",
+				"tier": 2,
+				"categories": ["Hairy", "Hairy"],
+				"blueprint" : ["Hairy-1", "Hairy-1"],
+				"prefabName": "HairyHairy-1"
+			},
+			{
+				"name":"MultiSword",
+				"tier": 2,
+				"categories": ["Pointy", "Pointy"],
+				"blueprint" : ["Pointy-1", "Pointy-1"],
+				"prefabName": "PointyPointy-1"
+			},	
+			{
 				"name":"Bee",
 				"tier": 2,
 				"categories": ["Hairy", "Pointy"],
@@ -105,18 +119,131 @@
 				"prefabName": "StickyPointy-1"
 			},
 			{
-				"name":"Hubert",
+				"name":"Durian",
 				"tier": 2,
-				"categories": ["Hairy", "Hairy"],
-				"blueprint" : ["Hairy-1", "Hairy-1"],
-				"prefabName": "HairyHairy-1"
+				"categories": ["Stanky", "Pointy"],
+				"blueprint" : ["Stanky-1", "Pointy-1"],
+				"prefabName": "StankyPointy-1"
 			},
+			{
+				"name":"PooStick",
+				"tier": 2,
+				"categories": ["Stanky", "Sticky"],
+				"blueprint" : ["Stanky-1", "Sticky-1"],
+				"prefabName": "StickyStanky-1"
+			},
+			{
+				"name":"HairyTape",
+				"tier": 2,
+				"categories": ["Hairy", "Sticky"],
+				"blueprint" : ["Hairy-1", "Sticky-1"],
+				"prefabName": "StickyHairy-1"
+			},
+			{
+				"name":"PerfectEnchilada",
+				"tier": 2,
+				"categories": ["Moist", "Spicy"],
+				"blueprint" : ["Moist-1", "Spicy-1"],
+				"prefabName": "SpicyMoist-1"
+			},
+			{
+				"name":"Wet Pube",
+				"tier": 2,
+				"categories": ["Moist", "Hairy"],
+				"blueprint" : ["Moist-1", "Hairy-1"],
+				"prefabName": "MoistHairy-1"
+			},
+			{
+				"name":"Cigarette butt",
+				"tier": 2,
+				"categories": ["Moist", "Stanky"],
+				"blueprint" : ["Moist-1", "Stanky-1"],
+				"prefabName": "MoistStanky-1"
+			},
+			{
+				"name":"Taco",
+				"tier": 2,
+				"categories": ["Spicy", "Pointy"],
+				"blueprint" : ["Spicy-1", "Pointy-1"],
+				"prefabName": "SpicyPointy-1"
+			},
+			{
+				"name":"Cake",
+				"tier": 2,
+				"categories": ["Moist", "Moist"],
+				"blueprint" : ["Moist-1", "Moist-1"],
+				"prefabName": "MoistMoist-1"
+			},
+			{
+				"name":"FishBones",
+				"tier": 2,
+				"categories": ["Moist", "Pointy"],
+				"blueprint" : ["Moist-1", "Pointy-1"],
+				"prefabName": "MoistPointy-1"
+			},
+			{
+				"name":"HairBrush",
+				"tier": 2,
+				"categories": ["Spicy", "Hairy"],
+				"blueprint" : ["Spicy-1", "Hairy-1"],
+				"prefabName": "SpicyHairy-1"
+			},
+			{
+				"name":"GhostPepper",
+				"tier": 2,
+				"categories": ["Spicy", "Spicy"],
+				"blueprint" : ["Spicy-1", "Spicy-1"],
+				"prefabName": "SpicySpicy-1"
+			},
+			{
+				"name":"Cheeetos",
+				"tier": 2,
+				"categories": ["Spicy", "Stanky"],
+				"blueprint" : ["Spicy-1", "Stanky-1"],
+				"prefabName": "SpicyStanky-1"
+			},											
 			{
 				"name":"Basic Chicken Wings",
 				"tier": 2,
 				"categories": ["Chicken"],
 				"blueprint" : [],
 				"prefabName": "BasicWings"
+			}
+		],
+		[								
+			{
+				"name":"Chicken Wings 2",
+				"tier": 3,
+				"categories": ["Chicken"],
+				"blueprint" : [],
+				"prefabName": "WingsTier2"
+			}
+		],
+		[								
+			{
+				"name":"Chicken Wings 3",
+				"tier": 4,
+				"categories": ["Chicken"],
+				"blueprint" : [],
+				"prefabName": "WingsTier3"
+			}
+		],
+		[								
+			{
+				"name":"Chicken Wings 4",
+				"tier": 5,
+				"categories": ["Chicken"],
+				"blueprint" : [],
+				"prefabName": "WingsTier4"
+			}
+		],
+		[								
+			{
+				"name":"Chicken Wings 5",
+				"tier": 5,
+				"categories": ["Chicken"],
+				"blueprint" : [],
+				"prefabName": "WingsTier5"
 			}
 		]
 	]
