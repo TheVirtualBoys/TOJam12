@@ -226,7 +226,7 @@
 				"prefabName": "HairSpaghetti-1"
 			},
 			{
-				"name":"Finger in a Blanket",
+				"name":"Fingie in a Blankie",
 				"tier": 3,
 				"categories": ["Pointy"],
 				"blueprint" : [],
@@ -272,15 +272,6 @@
 		],
 		[								
 			{
-				"name":"Honey Garlic Wings",
-				"tier": 5,
-				"categories": ["Chicken"],
-				"blueprint" : [],
-				"prefabName": "WingsTier4"
-			}
-		],
-		[								
-			{
 				"name":"Note from your mom",
 				"tier": 5,
 				"categories": ["Sticky"],
@@ -300,6 +291,13 @@
 				"categories": ["Stanky"],
 				"blueprint" : [],
 				"prefabName": "BottleBugs-1"
+			},
+			{
+				"name":"Honey Garlic Wings",
+				"tier": 5,
+				"categories": ["Chicken"],
+				"blueprint" : [],
+				"prefabName": "WingsTier4"
 			},
 			{
 				"name":"Buffalo wings with blue cheese dip n sides",
