@@ -9,7 +9,8 @@ public class GameplayController : MonoBehaviour {
 	public GameObject combineItem          = null;
 	public GameObject selectPresent        = null;
 	public SelectionDisplay finalSelection = null;
-	public GameObject outroPanel           = null;
+	public GameObject winOutroPanel        = null;
+	public GameObject loseOutroPanel       = null;
 	public Ingredient pickedIngredient     = null;
 
 	public void Start()
@@ -46,7 +47,11 @@ public class GameplayController : MonoBehaviour {
 	public void FinalPresentDoneDisplay()
 	{
 		this.finalSelection.gameObject.SetActive(false);
-		this.outroPanel.SetActive(true);
+		if (this.pickedIngredient.categories.Contains("Chicken")) {
+			this.loseOutroPanel.SetActive(true);
+		} else {
+			this.winOutroPanel.SetActive(true);
+		}
 	}
 
 	public void CloseOutroPanel()

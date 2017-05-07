@@ -33,7 +33,7 @@ public class IngredientUI : MonoBehaviour {
 		switch ((ButtonEvent)buttonType) {
 		case ButtonEvent.BUTTON_GRID:
 			combotron.AddIngredient(this.data);
-			selectedObj.SetActive(true);
+			this.selectedObj.SetActive(combotron.IsSelected(this.data));
 			break;
 		case ButtonEvent.BUTTON_COMBO:
 			combotron.RemoveIngredient(this);
