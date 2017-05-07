@@ -72,6 +72,7 @@ public class Combotron : MonoBehaviour {
 
 		this.RemoveIngredient(item1);
 		this.RemoveIngredient(item2);
+		IngredientGrid.RefreshSelectedStates();
 		return newItem;
 	}
 
