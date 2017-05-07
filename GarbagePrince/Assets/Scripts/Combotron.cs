@@ -84,15 +84,4 @@ public class Combotron : MonoBehaviour {
 		this.combinedItem.ClearAndInstantiateCell(ingredient);
 		this.combineItemAnim.SetTrigger("RevealItem");
 	}
-
-	public void EndCombineAnimation()
-	{
-		
-	}
-
-	public void RevealNewIngredient(Ingredient ingredient)
-	{
-		// get art data from ingredient and unwrap/display it nice and big.
-	}
-
 }

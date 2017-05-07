@@ -12,6 +12,7 @@ public class GameplayController : MonoBehaviour {
 	public GameObject winOutroPanel        = null;
 	public GameObject loseOutroPanel       = null;
 	public Ingredient pickedIngredient     = null;
+	public Animator garbagePrince          = null;
 
 	public void Start()
 	{
@@ -55,8 +56,10 @@ public class GameplayController : MonoBehaviour {
 		this.finalSelection.gameObject.SetActive(false);
 		if (this.pickedIngredient.categories.Contains("Chicken")) {
 			this.loseOutroPanel.SetActive(true);
+			this.garbagePrince.SetTrigger("Fail");
 		} else {
 			this.winOutroPanel.SetActive(true);
+			this.garbagePrince.SetTrigger("Win");
 		}
 	}
 

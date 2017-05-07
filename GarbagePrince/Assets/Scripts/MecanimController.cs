@@ -23,12 +23,4 @@ public class MecanimController : MonoBehaviour {
 	{
 		IngredientGrid.AddIngredient(Combotron.newItem);
 	}
-
-	/******************
-	 * Final Selection
-	 *****************/
-	public void SetPrinceAnimation()
-	{
-		//gameplay.pickedIngredient;
-	}
 }
