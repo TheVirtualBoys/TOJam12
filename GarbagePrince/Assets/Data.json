@@ -212,6 +212,27 @@
 		],
 		[								
 			{
+				"name":"GrossController",
+				"tier": 3,
+				"categories": ["Stanky"],
+				"blueprint" : [],
+				"prefabName": "GrossController-1"
+			},
+			{
+				"name":"HairSpaghetti",
+				"tier": 3,
+				"categories": ["Hairy"],
+				"blueprint" : [],
+				"prefabName": "HairSpaghetti-1"
+			},
+			{
+				"name":"FingerBlanket",
+				"tier": 3,
+				"categories": ["Pointy"],
+				"blueprint" : [],
+				"prefabName": "FingerBlanket-1"
+			},
+			{
 				"name":"Chicken Wings 2",
 				"tier": 3,
 				"categories": ["Chicken"],
@@ -238,6 +259,20 @@
 			}
 		],
 		[								
+			{
+				"name":"PostIt",
+				"tier": 5,
+				"categories": ["Sticky"],
+				"blueprint" : [],
+				"prefabName": "PostItNote-1"
+			},
+			{
+				"name":"DandruffPile",
+				"tier": 5,
+				"categories": ["Stanky"],
+				"blueprint" : [],
+				"prefabName": "DandruffPile-1"
+			},
 			{
 				"name":"Chicken Wings 5",
 				"tier": 5,
