@@ -33,6 +33,11 @@ public class IngredientGrid : MonoBehaviour {
 		return cell;
 	}
 
+	public IEnumerator WaitForComboRevealAnim()
+	{
+		yield return null;
+	}
+
 	public static void RefreshSelectedStates()
 	{
 		for (int i = 0; i < gridParent.childCount; ++i) {
