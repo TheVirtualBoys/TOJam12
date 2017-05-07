@@ -27837,6 +27837,7 @@ MonoBehaviour:
   item2: {fileID: 328899529}
   combinedItem: {fileID: 570563119}
   combineItemAnim: {fileID: 154977331}
+  revealItemText: {fileID: 645501747}
 --- !u!1 &2130021309
 GameObject:
   m_ObjectHideFlags: 0

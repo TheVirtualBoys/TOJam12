@@ -4,11 +4,12 @@ using UnityEngine;
 
 public class Combotron : MonoBehaviour {
 
-	public IngredientUI item1        = null;
-	public IngredientUI item2        = null;
-	public IngredientUI combinedItem = null;
-	public Animator combineItemAnim  = null;
-	public static Ingredient newItem = null;
+	public IngredientUI item1                 = null;
+	public IngredientUI item2                 = null;
+	public IngredientUI combinedItem          = null;
+	public Animator combineItemAnim           = null;
+	public static Ingredient newItem          = null;
+	public UnityEngine.UI.Text revealItemText = null;
 
 	// try and add an ingredient
 	public bool AddIngredient(Ingredient item)
@@ -70,6 +71,7 @@ public class Combotron : MonoBehaviour {
 			newItem = nextTier[Random.Range(0, nextTier.Count)];
 		}
 
+		this.revealItemText.text = newItem.ingredientName;
 		this.RemoveIngredient(item1);
 		this.RemoveIngredient(item2);
 		IngredientGrid.RefreshSelectedStates();
