@@ -4,8 +4,9 @@ using UnityEngine;
 
 public class SelectionDisplay : MonoBehaviour {
 
-	public IngredientUI item      = null;
-	public Animator garbagePrince = null;
+	public GameplayController gameplay = null;
+	public IngredientUI item           = null;
+	public Animator garbagePrince      = null;
 
 	public void SetIngredient(Ingredient ingredient)
 	{
@@ -19,6 +20,13 @@ public class SelectionDisplay : MonoBehaviour {
 		} else {
 			this.garbagePrince.SetTrigger("Win");
 		}
+		this.StartCoroutine(this.AutoAdvance(3.0f));
+	}
+
+	public IEnumerator AutoAdvance(float delay)
+	{
+		yield return new WaitForSeconds(delay);
+		this.gameplay.FinalPresentDoneDisplay();
 	}
 
 }
