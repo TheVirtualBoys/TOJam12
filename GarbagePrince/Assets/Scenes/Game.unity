@@ -22973,6 +22973,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 123e93fed797df6488dd857926940e7b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  gameplay: {fileID: 1553521075}
   item: {fileID: 1896008794}
   garbagePrince: {fileID: 1235693115}
 --- !u!114 &1583830487
